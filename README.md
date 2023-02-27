@@ -13,7 +13,7 @@ data set used: https://www.kaggle.com/code/atinsaki/chatbot-using-given-response
 ## Demo
 
 ```
-Type 'quit' to quit.
+Say goodbye to quit.
 
 	You: hi
 	ChatBot: Hi human, please tell me your GeniSys user
