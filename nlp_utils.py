@@ -11,8 +11,8 @@ def tokenize_to_vec(text, nlp_model):
     useful_tokens = []
 
     for token in doc:
-        if not (token.is_punct and token.is_stop):
-        # if not (token.is_punct):
+        # if not (token.is_punct and token.is_stop):
+        if not (token.is_punct):
             useful_tokens.append(token.lemma_)
 
     doc = nlp_model(" ".join(useful_tokens))
